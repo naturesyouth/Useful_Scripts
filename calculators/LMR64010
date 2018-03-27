@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import math
+import physics
+
+swf = Q(1.6, Mhz)
+R2 = Q(13.3, kohm)
+Vin = Q(7.4, v)
+Vout = Q(12, v)
+rec_cap_type = "multi-layer Ceramic"
+rec_cap_class = "X5R or X7R"
+
+Cf = 1 / ( 2 * math.pi * R1 * fz)
+
+D1 = "Toshiba CRS08"
+R1 = R2*((Vout/1.23)-1)
+DC = (1 - Eff * (vin/vout))
